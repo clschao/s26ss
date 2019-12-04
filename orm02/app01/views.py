@@ -222,7 +222,7 @@ def xx(request):
 
 def yanzhou(request):
 
-    return render(request,'')
+    return render(request,'yanzhou.html')
 
 
 
