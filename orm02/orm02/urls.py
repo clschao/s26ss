@@ -21,6 +21,7 @@ urlpatterns = [
     url(r'^book/list/', views.book_list,name='book_list'),
     url(r'^index/', views.index,name='index'),
     url(r'^login/', views.login,name='login'),
+    url(r'^yanzhou/', views.yanzhou,name='yanzhou'),
     url(r'^register/', views.register,name='register'),
     url(r'^xx/', views.xx,name='xx'),
     url(r'^book/add/', views.BookAddView.as_view(),name='book_add'),
